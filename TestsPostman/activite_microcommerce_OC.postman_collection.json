@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "4c32556f-a0a0-48cd-8f85-9b0ae277ffc5",
+		"name": "activite_microcommerce_OC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9090/AdminProduits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:9090/AdminProduits",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"AdminProduits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/AdminProduits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:9090/ProduitsOrdre",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"ProduitsOrdre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/Produits",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 6,\n    \"nom\": \"petit enfant maltais\",\n    \"prix\": 0,\n    \"prix_achat\": 0\n}"
+				},
+				"url": {
+					"raw": "localhost:9090/Produits",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Produits"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
